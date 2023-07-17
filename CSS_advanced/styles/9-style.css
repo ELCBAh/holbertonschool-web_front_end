@@ -18,13 +18,16 @@
     --line-height-base: 1.5;
     --line-height-big: 1.8;
 }
+.no-decoration {
+    text-decoration: none;
+}
 
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
 }
 
-body, a {
+body, a.no-decoration {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
