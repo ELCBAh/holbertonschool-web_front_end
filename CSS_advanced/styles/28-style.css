@@ -55,7 +55,7 @@
     --nav-item-link-hover: var(--color-primary);
 }
 
-* {
+*, *:before, *:after {
     box-sizing: border-box;
 }
 
